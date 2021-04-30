@@ -1,0 +1,55 @@
+{
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.9/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.9",
+  "version": "1.0.0",
+  "id": "599742c3-5a5b-40c7-802f-4f850befb25d",
+  "packageName": "com.microsoft.teams.demo",
+  "developer": {
+    "name": "Reflexis",
+    "websiteUrl": "https://www.reflexisinc.com/",
+    "privacyUrl": "https://www.reflexisinc.com/",
+    "termsOfUseUrl": "https://www.reflexisinc.com/"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "Demo",
+    "full": ""
+  },
+  "description": {
+    "short": "A demo app, on the other hand, is a tool to show a prospect what the app",
+    "full": "A demo app, on the other hand, is a tool to show a prospect what the app."
+  },
+  "accentColor": "#FFFFFF",
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": []
+}
